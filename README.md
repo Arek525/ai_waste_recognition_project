@@ -1,95 +1,83 @@
-# Inteligencja Obliczeniowa – Klasyfikacja Odpadów
+# Computational Intelligence – Waste Classification
 
-Projekt akademicki polegający na **porównaniu skuteczności różnych klasyfikatorów w zadaniu segregacji odpadów komunalnych na podstawie obrazów**.
+Academic project focused on **comparing different classifiers for the task of municipal waste segregation based on images**.
 
-Celem było sprawdzenie, które podejścia do klasyfikacji najlepiej radzą sobie z rozpoznawaniem typów odpadów: papier, szkło, plastik, bio, inne.
-
----
-
-## 🎯 Cel projektu
-
-- implementacja procesu **przygotowania danych obrazowych**
-- ekstrakcja cech
-- trenowanie modeli klasyfikacyjnych
-- **porównanie skuteczności różnych klasyfikatorów**
-- opracowanie wyników w formie **dokumentacji i prezentacji**
-
-Projekt realizowany w ramach przedmiotu **Inteligencja Obliczeniowa**.
+The main goal was to evaluate which classification approaches perform best in recognizing waste types such as: paper, glass, plastic, bio, and mixed.
 
 ---
 
-## 🛠 Technologie
+## 🎯 Project Goal
+
+- implementation of an **image data preparation pipeline**
+- feature extraction
+- training classification models
+- **comparison of different classifiers**
+- preparation of the final results in the form of **documentation and a presentation**
+
+The project was developed as part of the **Computational Intelligence** course.
+
+---
+
+## 🛠 Technologies
 
 - **Python**
-- przetwarzanie obrazów
-- klasyfikacja danych
-- analiza skuteczności modeli ML
-- praca na rzeczywistym zbiorze danych (TrashNet)
+- image processing
+- data classification
+- machine learning model evaluation
+- work with a real-world dataset (TrashNet)
 
 ---
 
-## 📂 Struktura repozytorium
+## ✅ Features
 
-- `dataset-resized/` – przygotowany i przeskalowany zbiór danych  
-- `models/` – zapisane modele klasyfikatorów  
-- `results/` – wyniki testów i ewaluacji  
-- `data_utils.py` – wczytywanie i przygotowanie danych  
-- `features.py` – ekstrakcja cech  
-- `benchmark.py` – porównywanie klasyfikatorów  
-- `Prezentacja.pdf` – **pełna dokumentacja projektu i wyniki**
-
----
-
-## ✅ Funkcjonalności
-
-- przygotowanie zbioru danych do trenowania
-- przetwarzanie i standaryzacja obrazów
-- ekstrakcja cech
-- trenowanie klasyfikatorów
-- porównanie skuteczności modeli
-- zapis wyników i dokumentacja efektów
+- dataset preparation for training
+- image preprocessing and normalization
+- feature extraction
+- training classification models
+- comparison of model performance
+- result analysis and documentation
 
 ---
 
-## 📊 Dokumentacja
+## 📊 Documentation
 
-Pełna dokumentacja projektu wraz z:
-- opisem metod
-- wynikami porównań
-- wykresami i wnioskami  
+The full project documentation including:
+- applied methods
+- classifier comparison results
+- charts and conclusions  
 
-znajduje się w pliku:
+is available in the file:
 
 📄 **`Prezentacja.pdf`**
 
 ---
 
-## 🧠 Czego uczy ten projekt
+## 🧠 What This Project Teaches
 
-- pracy z **danymi obrazowymi**
-- przygotowania danych do uczenia maszynowego
-- porównywania modeli klasyfikacyjnych
-- analizy wyników i wyciągania wniosków
-- organizacji projektu ML w repozytorium Git
-
----
-
-## 📌 Status projektu
-
-✅ Projekt zakończony  
-✅ Zawiera dane, modele, wyniki oraz dokumentację
+- working with **image-based datasets**
+- preparing data for machine learning
+- implementing and comparing classification models
+- analyzing experimental results
+- organizing a machine learning project in a Git repository
 
 ---
 
-## 📦 Źródło datasetu
+## 📌 Project Status
 
-Zbiór danych pochodzi z repozytorium:
+✅ Completed  
+✅ Includes datasets, trained models, results, and documentation
+
+---
+
+## 📦 Dataset Source
+
+The dataset used in this project comes from:
 
 https://github.com/garythung/trashnet
 
 ---
 
-## 👤 Autor
+## 👤 Author
 
 **Arkadiusz Lorek**  
-Projekt studencki — analiza, implementacja, dokumentacja
+Student project — implementation, analysis, and documentation
