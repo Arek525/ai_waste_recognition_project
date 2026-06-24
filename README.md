@@ -1,6 +1,6 @@
 # Computational Intelligence – Waste Classification
 
-Academic project focused on **comparing different classifiers for the task of municipal waste segregation based on images**.
+Project focused on **comparing different classifiers for the task of municipal waste segregation based on images**.
 
 The main goal was to evaluate which classification approaches perform best in recognizing waste types such as: paper, glass, plastic, bio, and mixed.
 
@@ -13,8 +13,6 @@ The main goal was to evaluate which classification approaches perform best in re
 - training classification models
 - **comparison of different classifiers**
 - preparation of the final results in the form of **documentation and a presentation**
-
-The project was developed as part of the **Computational Intelligence** course.
 
 ---
 
@@ -74,10 +72,3 @@ is available in the file:
 The dataset used in this project comes from:
 
 https://github.com/garythung/trashnet
-
----
-
-## 👤 Author
-
-**Arkadiusz Lorek**  
-Student project — implementation, analysis, and documentation
